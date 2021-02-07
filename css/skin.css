@@ -1,0 +1,27 @@
+.aside .logo  a::before{
+    border-top:4px solid #ec1839;
+    border-left:4px solid #ec1839;
+}
+.aside .logo  a::after{
+    border-bottom:4px solid #ec1839;
+    border-right:4px solid #ec1839;
+}
+.about .about-content .circle-dot,
+.about .about-content .timeline-item::before,
+.btn, .skills .skill-item .progress .progress-in,
+.about-section-title h2::before,.about-section-title h2::after,
+.aside .nav-toggle span,.aside .nav-toggle span::before{
+    background-color: #ec1839;
+}
+.lightbox .lightbox-controls .prev-item .fa , .lightbox .lightbox-controls .next-item .fa ,
+.portfolio .portfolio-filter button.active,
+.about .about-content .about-text span{
+    color: #ec1839;
+}
+.portfolio .portfolio-filter button.active{
+    border-color: #ec1839;
+}
+.intro img{
+    width:300px;
+    height: 300px;
+}
